@@ -1,0 +1,33 @@
+{
+  "name": "maximopay/maximopay-woocommerce",
+  "description": "Pix Máximo Pay para WooCommerce.",
+  "type": "wordpress-plugin",
+  "license": "proprietary",
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/Maximo-Pay/maximopay-sdk-php" }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "chillerlan/php-qrcode": "^5.0",
+    "maximopay/maximopay-php": "dev-main"
+  },
+  "require-dev": {
+    "brain/monkey": "^2.6",
+    "php-stubs/woocommerce-stubs": "^9.0",
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "psr-4": { "MaximoPay\\WooCommerce\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "MaximoPay\\WooCommerce\\Tests\\": "tests/" }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "config": {
+    "sort-packages": true,
+    "platform": { "php": "8.1" }
+  },
+  "minimum-stability": "stable"
+}
