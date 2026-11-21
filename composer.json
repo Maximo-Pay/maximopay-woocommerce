@@ -2,7 +2,7 @@
   "name": "maximopay/maximopay-woocommerce",
   "description": "Pix Máximo Pay para WooCommerce.",
   "type": "wordpress-plugin",
-  "license": "proprietary",
+  "license": "MIT",
   "repositories": [
     { "type": "vcs", "url": "https://github.com/Maximo-Pay/maximopay-sdk-php" }
   ],

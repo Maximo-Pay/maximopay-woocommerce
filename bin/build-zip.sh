@@ -5,7 +5,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 rm -rf build
 mkdir -p build/maximopay-woocommerce
-cp -r maximopay-woocommerce.php composer.json src assets readme.txt build/maximopay-woocommerce/
+cp -r maximopay-woocommerce.php composer.json src assets readme.txt LICENSE build/maximopay-woocommerce/
 [ -f composer.lock ] && cp composer.lock build/maximopay-woocommerce/
 (cd build/maximopay-woocommerce && composer install --no-dev --prefer-dist --optimize-autoloader --no-interaction --quiet && rm -f composer.json composer.lock \
   && find vendor -mindepth 3 -maxdepth 3 \( -name .git -o -name tests -o -name docs -o -name examples \) -exec rm -rf {} +)
