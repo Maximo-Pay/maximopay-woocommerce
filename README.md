@@ -40,3 +40,7 @@ bin/build-zip.sh       # build/maximopay-woocommerce.zip (~280 KB) com o vendor 
 O SDK vem de `Maximo-Pay/maximopay-sdk-php` (`dev-main`) por repositório VCS, então o `composer install` precisa de acesso a ele no GitHub. Quando o SDK estiver no Packagist, basta trocar para uma versão.
 
 Os testes não sobem um WordPress real. Antes de liberar para lojistas, vale uma rodada numa loja de teste contra o sandbox: pedido pago, Pix expirado e devolução parcial.
+
+## Licença
+
+MIT. Veja [LICENSE](LICENSE).

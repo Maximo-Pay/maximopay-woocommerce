@@ -4,7 +4,8 @@ Requires at least: 6.3
 Tested up to: 6.7
 Requires PHP: 8.1
 Stable tag: 0.1.0
-License: Proprietary
+License: MIT
+License URI: https://opensource.org/licenses/MIT
 
 Receba por Pix com o Máximo Pay. O pedido é confirmado sozinho pelo webhook assinado.
 

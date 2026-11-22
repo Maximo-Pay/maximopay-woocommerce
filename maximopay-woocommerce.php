@@ -9,7 +9,8 @@
  * WC tested up to: 9.4
  * Text Domain: maximopay-woocommerce
  * Domain Path: /languages
- * License: Proprietary
+ * License: MIT
+ * License URI: https://opensource.org/licenses/MIT
  */
 
 declare(strict_types=1);
